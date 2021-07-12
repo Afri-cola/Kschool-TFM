@@ -1,27 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
-# Tratamiento de datos
-# ==============================================================================
-import pandas as pd
-import numpy as np
-
-# Gráficos
-# ==============================================================================
-import seaborn as sns
-import matplotlib.pyplot as plt
-
-
-# Configuración warnings
-# ==============================================================================
-import warnings
-warnings.filterwarnings('ignore')
-
-
-# In[2]:
+# In[5]:
 
 
 def tipo_cambio(root):
@@ -59,7 +39,7 @@ def tipo_cambio(root):
     return df_export
 
 
-# In[3]:
+# In[6]:
 
 
 def variable_porcentaje(root):

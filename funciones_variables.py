@@ -4,21 +4,10 @@
 # In[1]:
 
 
-# Tratamiento de datos
-# ==============================================================================
 import pandas as pd
 import numpy as np
-
-# Gráficos
-# ==============================================================================
 import seaborn as sns
 import matplotlib.pyplot as plt
-
-
-# Configuración warnings
-# ==============================================================================
-import warnings
-warnings.filterwarnings('ignore')
 
 
 # In[2]:
